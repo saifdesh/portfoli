@@ -75,7 +75,26 @@ h1 {
     border-image-slice: 1;
 }
 
+.w-experience {
+    margin-top: 25px;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.w-exp {
+    border-left: 10px solid;
+    /* border-image: linear-gradient(rgb(37, 13, 135)), (rgb(234, 223, 7));
+    border-image-slice: 1; */
+    border-image: linear-gradient(rgb(6, 49, 223), rgb(235, 5, 124));
+    border-image-slice: 1;
+    box-shadow: rebeccapurple;
+    padding: 5%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px rgb(23, 159, 30);
+}
+
 footer {
     text-align: center;
     margin-top: 20px;
+
 }
